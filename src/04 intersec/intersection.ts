@@ -3,11 +3,11 @@ export type PersonMessage = {
   nonce: number,
   firstName: string,
   yearOfBirth: number,
-}
+};
 
 export type CarMessage = {
   kind: string,
   nonce: number,
   make: string,
   model: string,
-}
+};
