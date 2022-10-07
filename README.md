@@ -1,6 +1,6 @@
 # Code Demo
 
-> `demo-*` are the repos I use for lessons 🌹.
+> `demo-*` are the repos I use for lessons 🌹. [Free Lessons 🤗](https://www.youtube.com/channel/UCGD_0i6L48hucTiiyhb5QzQ/)
 
 You hopefully came here after watching the lesson ❤️. That said, feel free to play with this code even without watching the lesson 👏🏻 .
 
