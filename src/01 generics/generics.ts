@@ -4,4 +4,3 @@ class Queue {
   push(item: any) { this.data.push(item); }
   pop() { return this.data.shift(); }
 }
-
