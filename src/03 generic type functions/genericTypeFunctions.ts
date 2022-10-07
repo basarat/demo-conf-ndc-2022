@@ -1,2 +1,3 @@
-export type Number = number;
-export type String = string;
+export type Num = number;
+export type Str = string;
+export type Bool = boolean;
