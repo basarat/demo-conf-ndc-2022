@@ -1,11 +1,11 @@
-type PersonMessage = {
+export type PersonMessage = {
   kind: string,
   nonce: number,
   firstName: string,
   yearOfBirth: number,
 }
 
-type CarMessage = {
+export type CarMessage = {
   kind: string,
   nonce: number,
   make: string,
