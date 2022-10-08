@@ -4,3 +4,8 @@ export function addFullName<T extends { firstName: string, lastName: string }>(o
     fullName: obj.firstName + ' ' + obj.lastName,
   };
 }
+
+const jack = addFullName({
+  firstName: 'Jack',
+  lastName: 'Dawson',
+});
