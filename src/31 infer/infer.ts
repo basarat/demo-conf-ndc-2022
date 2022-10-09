@@ -12,4 +12,5 @@ type UnboxArray<T> =
   : T;
 
 type NotArray = UnboxArray<string>;
-type UnboxedArray = UnboxArray<string[]>;
+type UnboxedArray1 = UnboxArray<string[]>;
+type UnboxedArray2 = UnboxArray<number[]>;
