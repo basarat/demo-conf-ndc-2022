@@ -6,6 +6,7 @@ type Person = {
 const jack: Person = { name: 'Jack', age: 20 };
 const jill: Person = { name: 'Jill', age: 30 };
 
+// Can we make the key reliable?
 function logGet(person: Person, key: 'name' | 'age') {
   const value = person[key];
   console.log('Getting', person, key, value);
