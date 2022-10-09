@@ -1,3 +1,8 @@
-export type Num = number;
-export type Str = string;
-export type Bool = boolean;
+export type QueueType<T> = {
+  push(item: T): void;
+  pop(): T | undefined;
+};
+
+type QueueNumber = QueueType<number>;
+
+// Identity Type Function
