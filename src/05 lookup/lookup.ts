@@ -50,3 +50,10 @@ export type SubmitRequest = {
     creditCardToken: string,
   }
 };
+
+// UI
+export function getPayment() {
+  return {
+    creditCardToken: '124q234n12l!@#$3412n34!@#$'
+  }
+}
