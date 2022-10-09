@@ -8,4 +8,4 @@ function error(): never {
 
 // // null | never
 // type OnlyNull<T> = T extends null ? null : never;
-// type FilterNull = OnlyNull<string | null>;
+// type FilterNull = OnlyNull<null | string>;
