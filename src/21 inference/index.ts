@@ -17,3 +17,21 @@ class ArrayWrapper<T>{
     return this.arr[index];
   }
 }
+
+export function wrap<T>(obj: T) {
+  const result = Object.create(null);
+  for (const key in obj) {
+    const element = obj[key];
+    if (Array.isArray(element)) {
+      result[key] = new ArrayWrapper(element);
+    } else {
+      result[key] = new ObjectWrapper(element);
+    }
+  }
+  return result;
+}
+
+const wrapped = wrap({
+  value: 0,
+  items: [1, 2, 3],
+});
