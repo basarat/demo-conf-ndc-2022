@@ -1,4 +1,4 @@
-class ObjectWrapper<T> {
+export class ObjectWrapper<T> {
   constructor(public obj: T) { }
   getObj() {
     return { ...this.obj };
@@ -8,7 +8,7 @@ class ObjectWrapper<T> {
   }
 }
 
-class ArrayWrapper<T>{
+export class ArrayWrapper<T>{
   constructor(public arr: T[]) { }
   getArray() {
     return this.arr.concat();
@@ -32,6 +32,10 @@ export function wrap<T>(obj: T) {
 }
 
 const wrapped = wrap({
-  value: 0,
+  person: { name: 'Jane' },
   items: [1, 2, 3],
 });
+
+// These should be safe
+wrapped.person.getProperty('name');
+wrapped.items.getIndex(0);
