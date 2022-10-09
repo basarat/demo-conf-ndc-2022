@@ -1,6 +1,7 @@
 export function addFullName<T>(obj: T) {
   return {
     ...obj,
+    // fullName: obj.firstName + " " + obj.lastName,
   };
 }
 
