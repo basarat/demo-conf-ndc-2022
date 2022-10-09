@@ -1,4 +1,4 @@
-export type Queue<T> = {
+export type QueueType<T> = {
   push(item: T): void;
-  pop(): T;
+  pop(): T | undefined;
 };
