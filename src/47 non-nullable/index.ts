@@ -1,6 +1,6 @@
 export type StrOrNullOrUndefined = string | null | undefined;
 
-type Result = Exclude<StrOrNullOrUndefined, null | undefined>;
+type CustomResult = Exclude<StrOrNullOrUndefined, null | undefined>;
 
 type Union = { foo: number } | { bar: number };
 type UnionIntersection = Union & { bas: number };
@@ -10,3 +10,5 @@ example = { bar: 123, bas: 456 };
 
 type NullObject = null & {};
 type UndefinedObject = null & {};
+
+type BuiltInResult = NonNullable<StrOrNullOrUndefined>;
