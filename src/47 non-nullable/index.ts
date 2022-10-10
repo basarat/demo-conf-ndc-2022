@@ -10,5 +10,6 @@ example = { bar: 123, bas: 456 };
 
 type NullObject = null & {};
 type UndefinedObject = undefined & {};
+type NullOrUndefinedObject = (null | undefined) & {};
 
 type BuiltInResult = NonNullable<StrOrNullOrUndefined>;
