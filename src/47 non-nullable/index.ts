@@ -9,6 +9,6 @@ example = { foo: 123, bas: 456 };
 example = { bar: 123, bas: 456 };
 
 type NullObject = null & {};
-type UndefinedObject = null & {};
+type UndefinedObject = undefined & {};
 
 type BuiltInResult = NonNullable<StrOrNullOrUndefined>;
