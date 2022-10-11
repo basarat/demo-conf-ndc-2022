@@ -11,7 +11,7 @@ export class ObjectWrapper<T> {
 export class ArrayWrapper<T>{
   constructor(public arr: T[]) { }
   getArray() {
-    return this.arr.concat();
+    return [...this.arr];
   }
   getIndex(index: number) {
     return this.arr[index];
