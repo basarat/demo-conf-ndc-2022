@@ -1,4 +1,4 @@
-[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCGD_0i6L48hucTiiyhb5QzQ?style=social)](https://www.youtube.com/channel/UCGD_0i6L48hucTiiyhb5QzQ)
+[![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCGD_0i6L48hucTiiyhb5QzQ?style=social)](https://www.youtube.com/@basarat)
 # Code Demo
 
 > `demo-*` are the repos I use for lessons 🌹.
