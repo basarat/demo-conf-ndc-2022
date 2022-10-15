@@ -1,4 +1,7 @@
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCGD_0i6L48hucTiiyhb5QzQ?style=social)](https://www.youtube.com/@basarat)
+
+[![Follow on Twitter](https://img.shields.io/twitter/follow/basarat?style=social&logo=twitter)](https://twitter.com/basarat)
+
 # Code Demo
 
 > `demo-*` are the repos I use for lessons 🌹.
